@@ -1,8 +1,8 @@
-##Business Intelligence Exercise
+## Business Intelligence Exercise
 
 Author: Qichao Liu
 
-###1. Write a SQL script to create and populate data in a table to report performance of our conversion funnel by important dimensions
+### 1. Write a SQL script to create and populate data in a table to report performance of our conversion funnel by important dimensions
 
 Overall I will develop a ETL process to extract, transform, clean and load data into a table which can be updated daily.
 
