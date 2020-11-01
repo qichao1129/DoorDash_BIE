@@ -203,8 +203,8 @@ FROM #TodayData
 ### 2. Make a recommendation of how we should include search as part of the funnel and modify your SQL script and include it in your final table.
 
 Search is the functionality of the DoorDash to help the user find their interested restaurant/food. The best way to decide 
-how to include use of search is to figure out how the use of search impact conversion funnel. Based on the data analysis, sometime, user will 
-go from Homge_page event to Search event then to the Store_page event rather than go directly from home_page to store_page. 
+how to include use of search is to figure out how the use of search impact conversion funnel. Based on the data analysis, sometime user will 
+go from Homge_page to Search_event then to the Store_page rather than go directly from home_page to store_page. 
 
 #### A. Checking the search conversion rate to different steps by using following query 
 
@@ -232,8 +232,9 @@ FROM (
 
 * So we should:
     * Add conversion rate from home_page to search and from search to store_page. 
-    * Create a new HomePagetoStoreOrder conversation rate which take into account the search impact.These three new conversations can 
-    help us to clearly understand that if we could improve the search functionality, more user will go from hopme_page to search_event before
+    * Create a new HomePagetoStoreOrder conversation rate which take into account the search impact.
+    * These three new conversations can help us to clearly understand that if we could improve the search functionality, 
+    and guide more user go from home_page to search_event before
     go to store_page, and it will finally increase the overall conversation rate from home_page to store_page  
 
 * In order to insert new metrics into the table have to drop and re-create the table structure. 
