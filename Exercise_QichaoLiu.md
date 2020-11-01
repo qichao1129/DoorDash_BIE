@@ -215,9 +215,6 @@ FROM (
 It turns out the use of search increase the user's possibility to go to the store_ordering_page step, see following conversion rate to each step
 So we should add search between HP Visits and Accessed Store Page
 
-| SearchToStoreordering | SearchToHomePage | SeachToCheckoutPage | SeachToCheckoutSuccess |
-| ------------- |:-------------:| -----:|---- :|
-| 0.524      | 0.160 | 0.008  |  0 |
 
 | SearchToStoreordering        | SearchToHomePage           | SeachToCheckoutPage  |  SeachToCheckoutSuccess    |
 | ------------- |:-------------:| -----:| ---: |
