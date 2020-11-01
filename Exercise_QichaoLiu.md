@@ -15,10 +15,10 @@ Overall I will develop a ETL process to extract, transform, clean and load data 
     * For the duplicated rows since there is no any other information can differentiate them, I would assume it's a duplicated
     records and remove them.
 * Dimension
-    * Day of week 
-    * Region
-    * platform 
-    * initial_referring_domain
+    * Day of week: help to check whether conversation rate varies based on day of week
+    * Region: help to check whether conversation rate varies based on different region
+    * platform: help to check whether conversation rate varies based on different region
+    * initial_referring_domain: help to check whether conversation rate varies based on different referring domain. 
 * Data field to count: we can use different unit to calculate the conversion rate. I will use the first one of following unit. 
     * event: Each event the user generate each time will be a unit.
     * userID: Each user will be unit, count the number of users when calculate.
