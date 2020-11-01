@@ -8,6 +8,7 @@ Overall I will develop a ETL process to extract, transform, clean and load data 
 
 * Assumption
     * I assume the final table named CoversationRate
+    * Assume it has a lot of new data flowing into the table, so I will append everyday new data to table with reporting date.
 * Data cleaning
     * For the records that doesn't have previous step, for example, if there is only Accessed Store Page but no HP Visits
     before it, it's a invalid and bad data which will not include in final calculations.
