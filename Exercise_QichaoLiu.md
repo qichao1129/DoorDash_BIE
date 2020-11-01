@@ -219,11 +219,11 @@ So we should add search between HP Visits and Accessed Store Page
 | ------------- |:-------------:| -----:|---- :|
 | 0.524      | 0.160 | 0.008  |  0 |
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Tables        | Are           | Cool  |      |
+| ------------- |:-------------:| -----:| ---: |
+| col 3 is      | right-aligned | $1600 |      |
+| col 2 is      | centered      |   $12 |      |
+| zebra stripes | are neat      |    $1 |      |
 
 * In order to insert new metrics into the table have to drop and re-create the table structure. 
 
