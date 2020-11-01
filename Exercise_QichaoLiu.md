@@ -20,9 +20,10 @@ Overall I will develop a ETL process to extract, transform, clean and load data 
     * platform 
     * initial_referring_domain
 * Data field to count: we can use different unit to calculate the conversion rate. I will use the first one of following unit. 
-    * event: just count all the events each time the user generate 
-    * userID: count the number of unique user that flow from first and last step 
-    * sessionID: classify user'a activity into different session, then count session.
+    * event: All the events the user generate each time will be a unit.
+    * userID: Each user will be unit, count the number of users when calculate.
+    * sessionID: classify user'a activity into different session, assume if the step is checkout_success or the minutes difference 
+    between two step is more than 30 minutes then the current session is over.
     * Trade off by using different field to count:
         * Using event will accurately capture all the events in each step and the events which leading to next step. It can tell us how
         many times user will explore the home page before they move to next step. But it will 
