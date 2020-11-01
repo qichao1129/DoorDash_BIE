@@ -23,7 +23,8 @@ Overall I will develop a ETL process to extract, transform, clean and load data 
     * userID: count the number of unique user that flow from first and last step 
     * sessionID: classify user'a activity into different session, then count session.
     * Trade off by using different field to count:
-        * Using event will accurately capture all the events in each step and the events which leading to next step. But it will 
+        * Using event will accurately capture all the events in each step and the events which leading to next step. It can tell us how
+        many times user will explore the home page before they move to next step. But it will 
         not reveal any user information, user conversation rate, and session conversation rate. User might mistakenly refresh page many times
         or the count can be depend on the different device setting. It might not reflect actual conversation rate. 
         * Using UserId to count can exactly capture the user conversation rate which can help us to expand the market and doing 
