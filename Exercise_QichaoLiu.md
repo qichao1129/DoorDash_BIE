@@ -11,7 +11,7 @@ Overall I will develop a ETL process to extract, transform, clean and load data 
     * Assume it has a lot of new data flowing into the table, so I will append everyday new data to table with reporting date.
 * Data cleaning
     * For the records that doesn't have previous step, for example, if there is only Accessed Store Page but no HP Visits
-    before it, it's a invalid and bad data which will not include in final calculations.
+    before it, it's a invalid and bad data which will not be included when calculate the first step conversation rate.
     * For the duplicated rows since there is no any other information can differentiate them, I would assume it's a duplicated
     records and remove them.
 * Dimension
