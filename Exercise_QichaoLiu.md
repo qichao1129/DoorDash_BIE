@@ -56,8 +56,7 @@ CREATE TABLE CoversationRate
 )
 ```` 
 
-#### A. In order to calcualte the conversation rate, I follow the following steps to pull the data from 
-table and do the calculation
+#### A. In order to calculate the conversation rate, I follow the following steps to pull the data from table and do the calculation
 
 * For each user, find the next event_type based on the time ascending sort within the same device
 * Calculate the number of the visits for each step 
